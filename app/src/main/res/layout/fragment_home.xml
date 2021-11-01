@@ -41,7 +41,7 @@
                 android:textStyle="bold"
                 android:textSize="16sp"
                 android:textColor="@color/black"
-                android:text="App con Acceso a Base de datos firebase, MySQl Webhost000 \n\nMódulo: Desarrollo de Aplicaciones Usando Tecnologías Emergentes\n\nDesarolladores:\n\   Gerson Alexander Climaco Canessa \n\Heidy  Yohamy Mejia Mundo\n\Christy Alexandra Garcia Calderon\n\Carmen Elena Abarca Perez\n\nDocente: Manuel de Jesús Gámez López\n\nSegundo Año de Sistemas Informáticos"
+                android:text="App con Acceso a Base de datos Firebase, MySQl Webhost000 \n\nMódulo: Desarrollo de Aplicaciones Usando Tecnologías Emergentes\n\nDesarolladores:\n\   Gerson Alexander Climaco Canessa \n\Heidy  Yohamy Mejia Mundo\n\Christy Alexandra Garcia Calderon\n\Carmen Elena Abarca Perez\n\nDocente: Manuel de Jesús Gámez López\n\nSegundo Año de Sistemas Informáticos"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
