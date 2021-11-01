@@ -6,8 +6,12 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
+<<<<<<< HEAD
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#0119A0</color>
 
     <color name="guardar">#03A9F4</color>
+=======
+    <color name="black">#FF000000</color>
+>>>>>>> bec5ba2481f7976be0f239043470fc3f1690bb9b
 </resources>

@@ -8,6 +8,7 @@
         <entry key="..\:/Users/ITCA/CRUDProyectoFinal/app/src/main/res/layout/content_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ITCA/CRUDProyectoFinal/app/src/main/res/menu/activity_main_drawer.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ITCA/CRUDProyectoFinal/app/src/main/res/menu/main.xml" value="0.36666666666666664" />
+<<<<<<< HEAD
         <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/drawable/boton.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/drawable/fon.xml" value="0.3020833333333333" />
         <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/drawable/id.xml" value="0.3828125" />
@@ -17,7 +18,16 @@
         <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/layout/app_bar_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/layout/fragment_categorias.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/layout/fragment_gallery.xml" value="0.36666666666666664" />
+=======
+        <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+<<<<<<< HEAD
+        <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+=======
+>>>>>>> bec5ba2481f7976be0f239043470fc3f1690bb9b
         <entry key="..\:/Users/ITCA/Desktop/CRUDProyectoFinal/app/src/main/res/layout/login.xml" value="0.36666666666666664" />
+>>>>>>> 928acbd2694b1d0fc0ae91ba09782738fa8a9d2d
       </map>
     </option>
   </component>
