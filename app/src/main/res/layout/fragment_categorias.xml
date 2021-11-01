@@ -80,12 +80,10 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="300dp"
         android:layout_marginRight="20dp"
-        android:background="@color/white"
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnNew"
-            android:style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -93,20 +91,15 @@
             android:textColor="@color/black"
             android:textSize="15sp"
             android:background="@drawable/boton"
-            android:shadowColor="#000000"
-
-
-            />
+            android:shadowColor="#000000" />
 
 
         <Space
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.1" />
+            android:layout_height="wrap_content" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnSave"
-            android:style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="20dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"

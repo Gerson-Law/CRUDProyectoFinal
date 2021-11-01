@@ -1,12 +1,10 @@
 package com.itca.crud_proyecto_final.ui;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
@@ -14,21 +12,8 @@ import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
-import com.android.volley.AuthFailureError;
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.toolbox.StringRequest;
 import com.google.android.material.textfield.TextInputLayout;
-import com.mjgl.demomysql2020.MySingleton;
-import com.mjgl.demomysql2020.R;
-import com.mjgl.demomysql2020.Setting_VAR;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.HashMap;
-import java.util.Map;
+import com.itca.crud_proyecto_final.R;
 
 
 public class Categorias extends Fragment implements View.OnClickListener{
@@ -55,9 +40,9 @@ public class Categorias extends Fragment implements View.OnClickListener{
 
        sp_estado = root.findViewById(R.id.sp_estado);
 
-       ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(), R.array.estadoCategorias, android.R.layout.simple_spinner_item);
+       /*ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getContext(), R.array.estadoCategorias, android.R.layout.simple_spinner_item);
        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-       sp_estado.setAdapter(adapter);
+       sp_estado.setAdapter(adapter);*/
 
        sp_estado.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
            @Override
@@ -102,7 +87,7 @@ public class Categorias extends Fragment implements View.OnClickListener{
                 }else if(sp_estado.getSelectedItemPosition() > 0){
                     //Acciones para guardar registro en la base de datos.
                     //Toast.makeText(getContext(), "Bien...", Toast.LENGTH_SHORT).show();
-                    save_server(getContext(), Integer.parseInt(id), nombre, Integer.parseInt(datoSelect));
+                    //save_server(getContext(), Integer.parseInt(id), nombre, Integer.parseInt(datoSelect));
 
                 }else{
                     Toast.makeText(getContext(), "Debe seleccionar un estado para la categoria", Toast.LENGTH_SHORT).show();
@@ -117,7 +102,8 @@ public class Categorias extends Fragment implements View.OnClickListener{
         }
     }
 
-    private void save_server(final Context context, final int id_categoria, final String nom_categoria, final int estado_categoria) {
+    /*private void save_server(final Context context, final int id_categoria, final String nom_categoria, final int estado_categoria) {
+        Object Setting_VAR;
         StringRequest request = new StringRequest(Request.Method.POST, Setting_VAR.URL_registrar_categorias, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
@@ -157,8 +143,8 @@ public class Categorias extends Fragment implements View.OnClickListener{
                 return map;
             }
         };
-        MySingleton.getInstance(context).addToRequestQueue(request);
-    }
+       MySingleton.getInstance(context).addToRequestQueue(request);
+    }*/
 
 
     private void new_categories() {
