@@ -10,7 +10,14 @@ public class HomeViewModel extends ViewModel {
 
     public HomeViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is home fragment");
+        mText.setValue("App con Acceso a Base de datos Firebase, MySQl Webhost000 " +
+                "Módulo: Desarrollo de Aplicaciones Usando Tecnologías Emergentes" +
+                "Desarolladores:" +
+                "Heidy  Yohamy Mejia Mundo" +
+                "Christy Alexandra Garcia Calderon" +
+                "Carmen Elena Abarca Perez" +
+                "Docente: Manuel de Jesús Gámez López" +
+                "Segundo Año de Sistemas Informáticos");
     }
 
     public LiveData<String> getText() {
