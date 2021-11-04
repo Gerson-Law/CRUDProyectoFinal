@@ -79,7 +79,8 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:inputType="textPersonName"
-                android:hint="Contraseña"/>
+                android:hint="Contraseña"
+               />
             <Space
                 android:layout_width="408dp"
                 android:layout_height="25dp" />
