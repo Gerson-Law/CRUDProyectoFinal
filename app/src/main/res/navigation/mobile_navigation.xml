@@ -22,4 +22,9 @@
         android:name="com.itca.crud_proyecto_final.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_inicio"
+        android:name="com.itca.crud_proyecto_final.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
 </navigation>

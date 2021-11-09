@@ -10,6 +10,7 @@
     <string name="menu_home">Productos</string>
     <string name="menu_gallery">Categorias</string>
     <string name="menu_slideshow">Usuarios</string>
+    <string name="menu_desa">Desarrolladores</string>
     <string name="title_activity_login1">login1</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -19,4 +20,6 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

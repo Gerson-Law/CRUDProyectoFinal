@@ -52,7 +52,7 @@
                 android:textStyle="bold" />
 
             <EditText
-                android:id="@+id/editTextTextPersonName"
+                android:id="@+id/usuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
@@ -96,6 +96,7 @@
                 android:layout_width="408dp"
                 android:layout_height="25dp" />
             <TextView
+                android:id="@+id/Crearc"
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
                 android:text="Crear Cuenta"
