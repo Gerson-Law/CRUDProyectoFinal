@@ -4,72 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
     android:orientation="vertical"
-    android:background="@drawable/img2">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
-
-    <ImageView
-        android:id="@+id/imageView"
+    android:layout_gravity="center">
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="65dp"
-        android:layout_marginTop="25dp"
-        android:contentDescription="@string/nav_header_desc"
-        android:scaleType="fitXY"
-        android:src="@drawable/logo"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
-        />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="2dp"
-                android:layout_marginRight="15dp"
-                android:fontFamily="casual"
-                android:text="App con Acceso a Base de datos Firebase, MySQl Webhost000 \n\
-                \n\Módulo: Desarrollo de Aplicaciones Usando Tecnologías Emergentes\n\
-               \n\ Desarolladores\n\
-            \n\Gerson Alexander Climaco Canessa
-            \n\Heidy  Yohamy Mejia Mundo
-            \n\Christy Alexandra Garcia Calderon
-           \n\ Carmen Elena Abarca Perez
-            \n\Docente: Manuel de Jesús Gámez López\n\
-           \n\ Segundo Año de Sistemas Informáticos"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:textStyle="bold" />
+        <TextView
+            android:id="@+id/text_gallery"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="15dp"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.031" android:text="CRUD Tabla Productos "/>
 
-            <Button
-                android:id="@+id/btn1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginRight="15dp"
-                android:text="Botón de Pruebas " />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginRight="15dp"
-                android:fontFamily="casual"
-                android:text="CICLO II-2021\nITCA-FEPADE"
-                android:textAlignment="center"
-                android:textColor="@color/black"
-                android:textSize="18dp"
-                android:textStyle="bold" />
-        </LinearLayout>
-    </ScrollView>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="49dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/estilo2"
+            android:shadowColor="#A4A83C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="listar"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="178dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:background="@drawable/estilo2"
+            android:shadowColor="#A4A83C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="eliminar "
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="254dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:background="@drawable/estilo2"
+            android:shadowColor="#A4A83C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="actualizar"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="328dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/estilo2"
+            android:shadowColor="#A4A83C"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="registrar"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp" />
+    </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>
