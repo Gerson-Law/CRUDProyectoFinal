@@ -25,6 +25,6 @@
     <fragment
         android:id="@+id/nav_inicio"
         android:name="com.itca.crud_proyecto_final.Inicio"
-        android:label="fragment_inicio"
+        android:label="Desarrolladores"
         tools:layout="@layout/fragment_inicio" />
 </navigation>
