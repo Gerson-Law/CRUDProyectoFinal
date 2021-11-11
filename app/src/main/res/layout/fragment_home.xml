@@ -63,21 +63,7 @@
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"/>
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="44dp"
-            android:background="@drawable/estilo2"
-            android:shadowColor="#A4A83C"
-            android:shadowDx="0"
-            android:shadowDy="0"
-            android:shadowRadius="5"
-            android:text="actualizar"
-            android:textColor="#FFFFFF"
-            android:textSize="30sp"
-            tools:layout_editor_absoluteX="59dp"
-            tools:layout_editor_absoluteY="328dp"
-            android:layout_marginTop="15dp"
-            android:layout_marginBottom="15dp"/>
+
 
         <androidx.appcompat.widget.AppCompatButton
             android:layout_width="wrap_content"
@@ -87,9 +73,9 @@
             android:shadowDx="0"
             android:shadowDy="0"
             android:shadowRadius="5"
-            android:text="registrar"
+            android:text="registrar y actualizar"
             android:textColor="#FFFFFF"
-            android:textSize="30sp"
+            android:textSize="15sp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp" />
     </LinearLayout>
