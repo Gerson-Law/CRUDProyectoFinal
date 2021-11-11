@@ -10,6 +10,7 @@ import android.widget.Button;
 public class login1 extends AppCompatActivity {
 
     private Button btn1;
+    private Button btn2;
 
 
     @Override
@@ -27,8 +28,9 @@ public class login1 extends AppCompatActivity {
             }
         });
     }
-
-    public void registro(View v){
+     public void regsitro(View view){
+         Intent home = new Intent(getApplicationContext(), Registrar.class);
+         startActivity(home);
+     }
 
     }
-}

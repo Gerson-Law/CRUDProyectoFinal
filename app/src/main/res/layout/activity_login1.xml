@@ -124,14 +124,12 @@
                     android:layout_width="214dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:background="@drawable/estilo3"
+                    android:onClick="regsitro"
+                    android:background="@color/tranpa"
                     android:text="Registrate"
                     android:textColor="#FA1010"
                     android:textSize="15sp"
-                    android:shadowColor="#C70000"
-                    android:shadowDx="0"
-                    android:shadowDy="0"
-                    android:shadowRadius="5"/>
+/>
             </LinearLayout>
 
 
