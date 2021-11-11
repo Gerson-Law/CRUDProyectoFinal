@@ -94,9 +94,58 @@
             />
     </com.google.android.material.textfield.TextInputLayout>
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_stock"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#85929E">
+
+            <EditText
+                android:id="@+id/et_stock"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:drawablePadding="5dp"
+                android:paddingLeft="1dp"
+                android:drawableStart="@drawable/prod"
+                android:ems="10"
+                android:hint="Cantidad de Productos"
+                android:inputType="number"
+                android:textColor="#03168B"
+                android:textSize="14dp" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_precio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#85929E">
+
+            <EditText
+                android:id="@+id/et_precio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:drawablePadding="5dp"
+                android:paddingLeft="1dp"
+                android:drawableStart="@drawable/pre"
+                android:ems="10"
+                android:hint="Precio"
+                android:inputType="number"
+                android:textColor="#03168B"
+                android:textSize="14dp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
 
     </LinearLayout>
-    
     </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
