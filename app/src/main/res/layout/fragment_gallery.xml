@@ -44,7 +44,7 @@
         android:shadowRadius="5"
         android:text="listar"
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
+        android:textSize="15sp"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="178dp" />
 
@@ -58,7 +58,7 @@
         android:shadowRadius="5"
         android:text="eliminar "
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
+        android:textSize="15sp"
         tools:layout_editor_absoluteX="58dp"
         tools:layout_editor_absoluteY="254dp"
         android:layout_marginTop="15dp"
@@ -72,26 +72,13 @@
         android:shadowDx="0"
         android:shadowDy="0"
         android:shadowRadius="5"
-        android:text="actualizar"
+        android:text="actualizar y registrar"
         android:textColor="#FFFFFF"
-        android:textSize="30sp"
+        android:textSize="15sp"
         tools:layout_editor_absoluteX="59dp"
         tools:layout_editor_absoluteY="328dp"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="15dp"/>
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:background="@drawable/estilo2"
-        android:shadowColor="#A4A83C"
-        android:shadowDx="0"
-        android:shadowDy="0"
-        android:shadowRadius="5"
-        android:text="registrar"
-        android:textColor="#FFFFFF"
-        android:textSize="30sp"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="15dp" />
 </LinearLayout>
 </androidx.appcompat.widget.LinearLayoutCompat>

@@ -27,4 +27,8 @@ public class login1 extends AppCompatActivity {
             }
         });
     }
+
+    public void registro(View v){
+
+    }
 }

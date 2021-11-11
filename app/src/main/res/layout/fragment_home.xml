@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment"
     android:orientation="vertical"
-    android:layout_gravity="center"
-    android:background="@drawable/mar">
+    android:layout_gravity="center">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -29,9 +28,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.031"
-            android:text="CRUD Tabla Productos "
-            android:textStyle="bold"/>
+            app:layout_constraintVertical_bias="0.031" android:text="CRUD Tabla Productos "/>
 
 
         <androidx.appcompat.widget.AppCompatButton

@@ -5,15 +5,18 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icv"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/icv"
         android:supportsRtl="true"
         android:theme="@style/Theme.CRUDProyectoFinal">
         <activity
+            android:name=".Registrar"
+            android:exported="true" />
+        <activity
             android:name=".Splash"
             android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -22,21 +25,19 @@
         </activity>
         <activity
             android:name=".login1"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".Login"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CRUDProyectoFinal.NoActionBar"
-            tools:ignore="Instantiatable,MissingClass"></activity>
+            tools:ignore="Instantiatable,MissingClass" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.CRUDProyectoFinal.NoActionBar"
-            tools:ignore="Instantiatable,MissingClass"></activity>
+            tools:ignore="Instantiatable,MissingClass" />
     </application>
 
 </manifest>

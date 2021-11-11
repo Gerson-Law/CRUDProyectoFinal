@@ -19,7 +19,7 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
-        String urlGif = "https://regitrodeusuarios.000webhostapp.com/img/79735-loading.gif";
+        String urlGif = "https://regitrodeusuarios.000webhostapp.com/img/68735-bool.gif";
         ImageView imageView = (ImageView) findViewById(R.id.sphlas);
         Uri uri = Uri.parse(urlGif);
         Glide.with(getApplicationContext()).load(uri).into(imageView);
@@ -27,7 +27,7 @@ public class Splash extends AppCompatActivity {
         TimerTask time = new TimerTask() {
             @Override
             public void run() {
-                Intent i = new Intent(Splash.this, MainActivity.class);
+                Intent i = new Intent(Splash.this, login1.class);
                 startActivity(i);
                 finish();
             }
