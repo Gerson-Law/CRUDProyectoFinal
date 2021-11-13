@@ -24,7 +24,7 @@
         android:id="@+id/nombreco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ema"
+        android:drawableStart="@drawable/pro"
         android:ems="10"
         android:hint="Nombre Completo"
         android:inputType="textPersonName" />
@@ -33,7 +33,7 @@
         android:id="@+id/coreeo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ema"
+        android:drawableStart="@drawable/mail"
         android:ems="10"
         android:hint="Escriba su e-mail"
         android:inputType="textPersonName" />
@@ -42,16 +42,7 @@
         android:id="@+id/contra1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ema"
-        android:ems="10"
-        android:hint="Escriba su contraseña"
-        android:inputType="textPersonName" />
-
-    <EditText
-        android:id="@+id/telefono"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:drawableStart="@drawable/ema"
+        android:drawableStart="@drawable/cod"
         android:ems="10"
         android:hint="Escriba su contraseña"
         android:inputType="textPersonName" />
