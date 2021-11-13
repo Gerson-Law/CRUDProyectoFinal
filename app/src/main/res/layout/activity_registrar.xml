@@ -13,7 +13,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:fontFamily="cursive"
-    android:text="Registrar Usuario"
+    android:text="REGISTRAR USUARIOS"
     android:textAlignment="center"
     android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
     android:textColor="#121111"
