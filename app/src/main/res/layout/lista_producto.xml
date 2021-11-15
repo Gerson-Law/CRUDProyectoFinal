@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/black"
     android:orientation="vertical">
 
+
     <androidx.cardview.widget.CardView
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         card_view:cardUseCompatPadding="true"
@@ -15,13 +16,13 @@
         android:layout_margin="1dp"
         card_view:cardBackgroundColor="#D3D3BD"
         android:foreground="?android:attr/selectableItemBackground">
-        <!-- android:clickable="true" -->
+
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="50dp"
-            android:background="@drawable/vv">
+            android:layout_height="553dp"
+            android:background="@drawable/vv"
+            android:padding="50dp">
             <!--<ImageView
                 android:id="@+id/imageView"
                 android:layout_width="120dp"
@@ -37,22 +38,22 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="5dp"
                 android:background="@color/blue"
-                android:text=" Nombre Producto"
+                android:text=" Nombre Producto:"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="#ffffff"
+                android:textColor="@color/teal_200"
                 android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/textViewNombre1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textViewNombre"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginTop="1dp"
+                android:layout_marginRight="5dp"
                 android:text="..."
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="@color/black"
-                />
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/textViewDescripcion"
@@ -65,9 +66,9 @@
                 android:background="@color/blue"
                 android:paddingLeft="0dp"
                 android:paddingRight="15dp"
-                android:text=" Descripción Producto"
+                android:text=" Descripción Producto:"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
-                android:textColor="#ffffff"
+                android:textColor="@color/teal_200"
                 android:textStyle="bold" />
 
             <TextView
@@ -93,19 +94,20 @@
                 android:background="@color/blue"
                 android:text=" Precio: "
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="#ffffff"
+                android:textColor="@color/teal_200"
                 android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/textViewPrecio1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textViewPrecio"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginTop="1dp"
+                android:layout_marginRight="5dp"
                 android:text="0.0"
-                android:textColor="@color/black"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/textViewStock"
@@ -115,9 +117,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="@color/blue"
-                android:text=" Stock"
+                android:text=" Stock:"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="#ffffff"
+                android:textColor="@color/teal_200"
                 android:textStyle="bold" />
 
             <TextView
@@ -126,11 +128,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textViewStock"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginTop="1dp"
+                android:layout_marginRight="5dp"
                 android:text="0.0"
-                android:textColor="@color/black"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/textViewCategoria"
@@ -140,9 +142,9 @@
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
                 android:background="@color/blue"
-                android:text=" Cateogoria"
+                android:text=" Cateogoria:"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                android:textColor="#ffffff"
+                android:textColor="@color/teal_200"
                 android:textStyle="bold" />
 
 
@@ -152,11 +154,11 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textViewCategoria"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginTop="1dp"
+                android:layout_marginRight="5dp"
                 android:text="xx000"
-                android:textColor="@color/black"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/textViewFecha"
@@ -172,9 +174,7 @@
                 android:textStyle="bold" />
 
 
-
         </RelativeLayout>
-
 
 
     </androidx.cardview.widget.CardView>
