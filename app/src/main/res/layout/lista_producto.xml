@@ -32,7 +32,7 @@
             <TextView
                 android:id="@+id/textViewNombre"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="5dp"
@@ -53,47 +53,48 @@
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
                 android:textColor="@color/black"
                 />
+
             <TextView
                 android:id="@+id/textViewDescripcion"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_below="@id/textViewNombre1"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginTop="1dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/blue"
                 android:paddingLeft="0dp"
                 android:paddingRight="15dp"
                 android:text=" Descripción Producto"
-                android:background="@color/blue"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
-                />
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/textViewDescripcion1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/textViewDescripcion"
                 android:layout_marginLeft="5dp"
-                android:layout_marginRight="5dp"
                 android:layout_marginTop="1dp"
+                android:layout_marginRight="5dp"
                 android:text="..."
-                android:textColor="@color/black"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small.Inverse"
+                android:textColor="@color/black"
                 android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/textViewPrecio"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_below="@id/textViewDescripcion1"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:text=" Precio: "
                 android:background="@color/blue"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
+                android:text=" Precio: "
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                />
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
             <TextView
                 android:id="@+id/textViewPrecio1"
                 android:layout_width="match_parent"
@@ -105,19 +106,19 @@
                 android:text="0.0"
                 android:textColor="@color/black"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
             <TextView
                 android:id="@+id/textViewStock"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_below="@id/textViewPrecio1"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:text=" Stock"
                 android:background="@color/blue"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
+                android:text=" Stock"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                />
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textViewStock1"
@@ -134,16 +135,15 @@
             <TextView
                 android:id="@+id/textViewCategoria"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="30dp"
                 android:layout_below="@id/textViewStock1"
                 android:layout_marginLeft="5dp"
                 android:layout_marginRight="5dp"
-                android:text=" Cateogoria"
                 android:background="@color/blue"
-                android:textColor="#ffffff"
-                android:textStyle="bold"
+                android:text=" Cateogoria"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
-                />
+                android:textColor="#ffffff"
+                android:textStyle="bold" />
 
 
             <TextView
