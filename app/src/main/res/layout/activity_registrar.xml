@@ -10,23 +10,6 @@
     android:background="@drawable/linea">
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/ti_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:textColorHint="#85929E">
 
     <TextView
     android:id="@+id/resgit1"
@@ -39,18 +22,7 @@
     android:textColor="#121111"
     android:textSize="30dp"
     android:textStyle="bold" />
-        </com.google.android.material.textfield.TextInputLayout>
-
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/ti_nombre_prod"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:textColorHint="#85929E">
-
+      
     <EditText
         android:id="@+id/nombreco"
         android:layout_width="match_parent"
@@ -60,17 +32,6 @@
         android:hint="Nombre Completo"
         android:inputType="textPersonName" />
 
-        </com.google.android.material.textfield.TextInputLayout>
-
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/ti_descripcion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:textColorHint="#85929E">
 
     <EditText
         android:id="@+id/coreeo"
@@ -81,17 +42,6 @@
         android:hint="Escriba su e-mail"
         android:inputType="textPersonName" />
 
-        </com.google.android.material.textfield.TextInputLayout>
-
-
-        <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/contra"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:textColorHint="#85929E">
 
     <EditText
         android:id="@+id/contra1"
@@ -102,7 +52,6 @@
         android:hint="Escriba su contraseña"
         android:inputType="textPersonName" />
 
-        </com.google.android.material.textfield.TextInputLayout>
 
 
         <androidx.appcompat.widget.AppCompatButton
@@ -120,6 +69,5 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-    </LinearLayout>
-    </ScrollView>
+
 </androidx.appcompat.widget.LinearLayoutCompat>
