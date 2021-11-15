@@ -43,7 +43,7 @@
 
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/ti_nombre_prod"
+            android:id="@+id/ti_productos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -52,7 +52,7 @@
             android:textColorHint="#85929E">
 
             <EditText
-                android:id="@+id/et_nombre_prod"
+                android:id="@+id/et_productos"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
@@ -94,7 +94,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/ti_stock"
+            android:id="@+id/ti_cantidad"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -103,7 +103,7 @@
             android:textColorHint="#85929E">
 
             <EditText
-                android:id="@+id/et_stock"
+                android:id="@+id/et_cantidad"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
@@ -169,7 +169,7 @@
                 android:layout_weight="0.1" />
 
             <Button
-                android:id="@+id/btnNew"
+                android:id="@+id/btnLimpiar"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
