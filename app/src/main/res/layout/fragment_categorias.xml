@@ -114,6 +114,17 @@
             android:textColor="@color/black"
             android:textSize="15sp"
             android:background="@drawable/boton"
+            android:shadowColor="#000000"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNew"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="listar categoria"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:background="@drawable/boton"
             android:shadowColor="#000000">
 
         </androidx.appcompat.widget.AppCompatButton>

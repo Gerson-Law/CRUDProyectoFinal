@@ -1,13 +1,19 @@
 package com.itca.crud_proyecto_final;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class login1 extends AppCompatActivity {
@@ -25,19 +31,47 @@ public class login1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login1);
 
+        usuario = findViewById(R.id.usuario);
+        contra = findViewById(R.id.contra);
+        iniciosesion = findViewById(R.id.iniciosesion);
         btn1 = findViewById(R.id.iniciosesion);
 
-        btn1.setOnClickListener(new View.OnClickListener() {
+        iniciosesion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent home = new Intent(getApplicationContext(), MainActivity.class);
-                startActivity(home);
+                String user = usuario.getText().toString().trim();
+                String contraseña = contra.getText().toString().trim();
+
+                if(TextUtils.isEmpty(user)){
+                    usuario.setError("Correo Invalido");
+                    return;
+                }
+
+                if(TextUtils.isEmpty(contraseña)) {
+                    contra.setError("Contraseña Requerida");
+                    return;
+                }
+                if(contra.length() < 6) {
+                    contra.setError("La Contraseña Incorrecta");
+                    return;
+
+                }
+                FAuth.signInWithEmailAndPassword(user,contraseña).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if(task.isSuccessful()){
+                            Toast.makeText(login1.this, "Acceso Concedido", Toast.LENGTH_SHORT).show();
+                            startActivity(new Intent(getApplicationContext() ,MainActivity.class));
+                        }
+
+
+
+                    }
+                })
             }
         });
+
     }
-     public void regsitro(View view){
-         Intent home = new Intent(getApplicationContext(), Registrar.class);
-         startActivity(home);
-     }
+
 
     }
