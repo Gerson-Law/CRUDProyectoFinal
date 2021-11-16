@@ -31,7 +31,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"  />
+        android:layout_marginTop="45dp"  />
 
 
     <EditText
@@ -46,7 +46,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"  />
+        android:layout_marginTop="5dp"  />
 
 
 
@@ -62,7 +62,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"  />
+        android:layout_marginTop="5dp"  />
 
 
     <EditText
@@ -72,7 +72,7 @@
         android:drawableStart="@drawable/cod"
         android:ems="10"
         android:hint="Escriba su contraseña"
-        android:inputType="textPersonName" />
+        android:inputType="textPassword" />
 
     <TextView
         android:layout_width="match_parent"
@@ -85,17 +85,17 @@
             android:id="@+id/crear"
             android:layout_width="214dp"
             android:layout_height="40dp"
-
             android:layout_gravity="center"
             android:background="@drawable/boton"
             android:text="Crear Usuario" />
 
-        <ProgressBar
-            android:id="@+id/progressBar"
-            android:layout_gravity="center"
-            style="?android:attr/progressBarStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="invisible" />
 
 
 

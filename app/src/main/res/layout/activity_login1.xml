@@ -84,7 +84,7 @@
                 android:drawableStart="@drawable/contra"
                 android:ems="10"
                 android:hint="Contraseña"
-                android:inputType="textPersonName" />
+                android:inputType="textPassword" />
 
             <Space
                 android:layout_width="408dp"
@@ -94,7 +94,7 @@
                 android:id="@+id/iniciosesion"
                 android:layout_width="214dp"
                 android:layout_height="40dp"
-
+                android:onClick="iniciar"
                 android:layout_gravity="center"
                 android:background="@drawable/boton"
                 android:text="Ingresar" />

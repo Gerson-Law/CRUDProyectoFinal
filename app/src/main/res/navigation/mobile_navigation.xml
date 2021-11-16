@@ -17,11 +17,11 @@
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_gallery" />
 
-    <fragment
+    <!-- fragment
         android:id="@+id/nav_slideshow"
         android:name="com.itca.crud_proyecto_final.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        tools:layout="@layout/fragment_slideshow" /-->
     <fragment
         android:id="@+id/nav_inicio"
         android:name="com.itca.crud_proyecto_final.Inicio"

@@ -33,13 +33,16 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/listaP"
             android:layout_width="wrap_content"
             android:layout_height="49dp"
             android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:background="@drawable/estilo2"
             android:shadowColor="#A4A83C"
+            android:onClick="Productos"
             android:shadowDx="0"
+
             android:shadowDy="0"
             android:shadowRadius="5"
             android:text="listar"
@@ -49,6 +52,7 @@
             tools:layout_editor_absoluteY="178dp" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/eliminarP"
             android:layout_width="wrap_content"
             android:layout_height="48dp"
             android:background="@drawable/estilo2"
@@ -67,6 +71,7 @@
 
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/registrarP"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:background="@drawable/estilo2"

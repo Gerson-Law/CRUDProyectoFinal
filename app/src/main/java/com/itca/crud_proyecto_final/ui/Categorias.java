@@ -63,7 +63,7 @@ public class Categorias extends Fragment implements View.OnClickListener{
        });
 
        btnSave = root.findViewById(R.id.btnSave);
-       btnNew = root.findViewById(R.id.btnNew);
+
 
        btnSave.setOnClickListener(this);
        btnNew.setOnClickListener(this);
@@ -94,9 +94,7 @@ public class Categorias extends Fragment implements View.OnClickListener{
                 }
                 break;
 
-            case R.id.btnNew:
-                new_categories();
-                break;
+
 
             default:
         }

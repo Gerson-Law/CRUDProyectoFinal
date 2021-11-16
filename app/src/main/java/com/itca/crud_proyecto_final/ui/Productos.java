@@ -18,7 +18,7 @@ import java.util.zip.Inflater;
 public class Productos extends AppCompatActivity {
 
 
-    EditText et_id,  et_productos, ti_descripcion, ti_precio, ti_cantidad, ti_id, ti_productos, et_descripcion, et_precio, et_cantidad ;
+    EditText et_id, et_productos, ti_descripcion, ti_precio, ti_cantidad, ti_id, ti_productos, et_descripcion, et_precio, et_cantidad;
     Button btnSave, btnLimpiar, btnActualizar;
     private Object ViewGroup;
 
@@ -137,8 +137,9 @@ public class Productos extends AppCompatActivity {
         }
 
 
-
-
+    }
+}
+/*
 
     });
 
@@ -168,6 +169,7 @@ private void new_product(){
         et_precio.setText(null);
         }
 
+        */
 
 
-*/
+

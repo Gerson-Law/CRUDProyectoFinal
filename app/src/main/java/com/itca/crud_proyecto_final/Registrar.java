@@ -9,7 +9,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
+
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -23,7 +23,6 @@ public class Registrar extends AppCompatActivity {
     EditText nombreco,coreeo,contra1;
     Button crear;
     FirebaseAuth FAuth;
-    ProgressBar progressBar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +37,7 @@ public class Registrar extends AppCompatActivity {
         nombreco = findViewById(R.id.nombreco);
 
         FAuth = FirebaseAuth.getInstance();
-        progressBar = findViewById(R.id.progressBar);
+
 
         if(FAuth.getCurrentUser() != null){
             startActivity(new Intent(getApplicationContext() ,Registrar.class));
@@ -47,7 +46,7 @@ public class Registrar extends AppCompatActivity {
 
         crear.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
+            public void onClick(View v) {
                 String emael = coreeo.getText().toString().trim();
                 String contra = contra1.getText().toString().trim();
 
@@ -66,7 +65,6 @@ public class Registrar extends AppCompatActivity {
                     return;
 
                 }
-                progressBar.setVisibility(View.VISIBLE);
 
                     //Registrar Usuario en Firebase
 

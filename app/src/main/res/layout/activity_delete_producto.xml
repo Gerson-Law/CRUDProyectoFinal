@@ -2,14 +2,15 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-
+    tools:context=".Delete_producto"
     android:background="@drawable/pared">
 
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,83 +18,83 @@
         android:orientation="vertical">
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:textColorHint="#85929E">
-
-
-        <EditText
-            android:id="@+id/et_id"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_id"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
-            android:drawablePadding="5dp"
-            android:paddingLeft="1dp"
-            android:drawableStart="@drawable/cod"
-            android:ems="10"
-            android:hint="Codigo del Producto"
-            android:inputType="text"
-            android:textColor="#03168B"
-            android:textSize="14dp" />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:layout_marginTop="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#85929E">
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_nombre_prod"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:textColorHint="#85929E">
+            <EditText
+                android:id="@+id/et_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:drawablePadding="5dp"
+                android:paddingLeft="1dp"
+                android:drawableStart="@drawable/cod"
+                android:ems="10"
+                android:hint="Codigo del Producto"
+                android:inputType="text"
+                android:textColor="#03168B"
+                android:textSize="14dp" />
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/et_nombre_prod"
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_nombre_prod"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
-            android:drawablePadding="5dp"
-            android:paddingLeft="1dp"
-            android:drawableStart="@drawable/pro"
-            android:ems="10"
-            android:hint="Nombre del Producto"
-            android:inputType="text"
-            android:textColorHint="#85929E"
-            android:textSize="14dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#85929E">
 
-            />
-    </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/et_nombre_prod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:drawablePadding="5dp"
+                android:paddingLeft="1dp"
+                android:drawableStart="@drawable/pro"
+                android:ems="10"
+                android:hint="Nombre del Producto"
+                android:inputType="text"
+                android:textColorHint="#85929E"
+                android:textSize="14dp"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
 
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/ti_descripcion"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:textColorHint="#85929E">
-
-        <EditText
-            android:id="@+id/et_descripcion"
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/ti_descripcion"
             android:layout_width="match_parent"
-            android:layout_height="75dp"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text=""
-            android:drawablePadding="5dp"
-            android:paddingLeft="1dp"
-            android:drawableStart="@drawable/des"
-            android:textSize="14dp"
-            android:textColor="#03168B"
-            android:hint="Descripción del Producto"
-            android:inputType="text"
-            />
-    </com.google.android.material.textfield.TextInputLayout>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:textColorHint="#85929E">
+
+            <EditText
+                android:id="@+id/et_descripcion"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=""
+                android:drawablePadding="5dp"
+                android:paddingLeft="1dp"
+                android:drawableStart="@drawable/des"
+                android:textSize="14dp"
+                android:textColor="#03168B"
+                android:hint="Descripción del Producto"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/ti_stock"
@@ -168,6 +169,6 @@
 
         </LinearLayout>
     </LinearLayout>
-    </ScrollView>
+</ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

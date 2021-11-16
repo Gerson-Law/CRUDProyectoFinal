@@ -73,11 +73,14 @@ public class login1 extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
                             Toast.makeText(login1.this, "Acceso Concedido", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                            Intent intent = new Intent(login1.this, MainActivity.class);
+                            startActivity(intent);
+                        } else {
+                            Toast.makeText(login1.this, "ERROR", Toast.LENGTH_SHORT).show();
+                        }
                         }
 
 
-                    }
                 });
             }
         });
