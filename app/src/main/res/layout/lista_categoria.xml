@@ -77,7 +77,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_des"
+                    android:id="@+id/et_es"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -85,87 +85,16 @@
                     android:drawablePadding="5dp"
                     android:ems="10"
                     android:background="@color/celeste"
-                    android:hint="Descripcion del Producto"
+                    android:hint="Estado del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
                     android:textColor="#03168B"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_pre"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:textColorHint="#85929E">
 
-                <EditText
-                    android:id="@+id/et_pre"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="0dp"
-                    android:drawableStart="@drawable/pre1"
-                    android:drawablePadding="5dp"
-                    android:ems="10"
-                    android:background="@color/celeste"
-                    android:hint="Precio del Producto"
-                    android:inputType="text"
-                    android:paddingLeft="1dp"
-                    android:textColor="#03168B"
-                    android:textSize="14dp" />
-            </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_stok"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:textColorHint="#85929E">
 
-                <EditText
-                    android:id="@+id/et_stok"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="0dp"
-                    android:drawableStart="@drawable/stp"
-                    android:drawablePadding="5dp"
-                    android:ems="10"
-                    android:background="@color/celeste"
-                    android:hint="Stock del Producto"
-                    android:inputType="text"
-                    android:paddingLeft="1dp"
-                    android:textColor="#03168B"
-                    android:textSize="14dp" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_cate"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:textColorHint="#85929E">
-
-                <EditText
-                    android:id="@+id/et_cate"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="0dp"
-                    android:drawableStart="@drawable/ca1"
-                    android:drawablePadding="5dp"
-                    android:ems="10"
-                    android:hint="Categoria"
-                    android:inputType="text"
-                    android:background="@color/celeste"
-                    android:paddingLeft="1dp"
-                    android:textColor="#03168B"
-                    android:textSize="14dp" />
-            </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -181,9 +110,9 @@
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_weight="4"
                     android:background="@color/celeste"
-                    android:text="Listar Producto"
+                    android:text="Listar CATEGORIA"
                     android:textColor="@color/colorWhite" />
 
 
