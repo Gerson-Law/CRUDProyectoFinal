@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/pared">
+    android:background="@drawable/proyec">
 
 
     <ScrollView
@@ -34,6 +34,7 @@
                     android:drawablePadding="5dp"
                     android:paddingLeft="1dp"
                     android:drawableStart="@drawable/cod1"
+                    android:background="#E2D2F8"
                     android:ems="10"
                     android:hint="Codigo del Categoria"
                     android:inputType="text"
@@ -59,6 +60,7 @@
                     android:drawablePadding="5dp"
                     android:paddingLeft="1dp"
                     android:drawableStart="@drawable/prome"
+                    android:background="#E2D2F8"
                     android:ems="10"
                     android:hint="Nombre del Categoria"
                     android:inputType="text"
@@ -83,10 +85,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
-                    android:text=""
                     android:drawablePadding="5dp"
                     android:paddingLeft="1dp"
                     android:drawableStart="@drawable/des"
+                    android:background="#E2D2F8"
                     android:textSize="14dp"
                     android:textColor="#03168B"
                     android:hint="Estado del Categoria"
@@ -109,7 +111,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="#FF03DAC5"
+                    android:background="#AF87E5"
                     android:text="Eliminar"
                     android:textColor="@color/colorWhite" />
 
