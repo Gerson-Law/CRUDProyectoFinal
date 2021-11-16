@@ -13,11 +13,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.android.volley.VolleyError;
 import com.itca.crud_proyecto_final.R;
 
+import java.util.zip.Inflater;
+
 public class Productos extends AppCompatActivity {
 
 
     EditText et_id,  et_productos, ti_descripcion, ti_precio, ti_cantidad, ti_id, ti_productos, et_descripcion, et_precio, et_cantidad ;
     Button btnSave, btnLimpiar, btnActualizar;
+    private Object ViewGroup;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,11 +42,11 @@ public class Productos extends AppCompatActivity {
         btnLimpiar = btnLimpiar.findViewById(R.id.btnLimpiar);
         btnActualizar = btnActualizar.findViewById(R.id.btnActualizar);
 
+    }}
 
-
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                Bundle savedInstanceState) {
+    /*  @Override
+        public View onCreateView (LayoutInflater Inflater inflater;
+        inflater, ViewGroup container, Bundle savedInstanceState) {
             // Inflate the layout for this fragment
             View view = inflater.inflate(R.layout.productos, container, false);
 
@@ -94,6 +97,9 @@ public class Productos extends AppCompatActivity {
             public void onClick(View v) {
                 btnSave();
             }
+
+            private void btnSave() {
+            }
         });
 
         return view;
@@ -103,7 +109,38 @@ public class Productos extends AppCompatActivity {
     public void onErrorResponse(VolleyError error) {
         Toast.makeText(context, "Error. Compruebe su acceso a Internet.", Toast.LENGTH_SHORT).show();
     }
-});
+
+    {
+       protected Map<String, string> getParams() throws AuthFailureError {
+
+        Map<String, String> map = new HashMap<>();
+        map.put("Content-Type", "application/json; charset=utf-8");
+        map.put("Accept", "application/json");
+        map.put("id_prod", id_prod);
+        map.put("nom_prod", nom_prod);
+        map.put("des_prod", des_prod);
+        map.put("cantidad", cantidad);
+        map.put("precio", precio);
+        return map;
+    }
+    };{
+
+        MySingleton.getInstance(context).addToRequestQueue(stringRequest);
+
+
+        private void new_product(){
+            et_id.setText(null);
+            et_nombre_prod.setText(null);
+            et_descripcion.setText(null);
+            et_stock.setText(null);
+            et_precio.setText(null);
+        }
+
+
+
+
+
+    });
 
         {
 protected Map<String, string> getParams() throws AuthFailureError {
@@ -118,12 +155,12 @@ protected Map<String, string> getParams() throws AuthFailureError {
         map.put("precio", precio);
         return map;
         }
-        }; {
+        };{
 
         MySingleton.getInstance(context).addToRequestQueue(stringRequest);
 
 
-private void new_product() {
+private void new_product(){
         et_id.setText(null);
         et_nombre_prod.setText(null);
         et_descripcion.setText(null);
@@ -133,4 +170,4 @@ private void new_product() {
 
 
 
-
+*/

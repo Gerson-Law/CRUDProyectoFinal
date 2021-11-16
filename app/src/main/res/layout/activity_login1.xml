@@ -124,7 +124,7 @@
                     android:layout_width="214dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:onClick="regsitro"
+                    android:onClick="Registro"
                     android:background="@color/tranpa"
                     android:text="Registrate"
                     android:textColor="#FA1010"

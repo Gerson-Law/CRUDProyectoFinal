@@ -22,8 +22,9 @@ public class login1 extends AppCompatActivity {
     private Button btn2;
 
     EditText usuario, contra;
-    Button iniciosesion;
+    Button iniciosesion, registro;
     FirebaseAuth FAuth;
+
 
 
     @Override
@@ -31,10 +32,21 @@ public class login1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login1);
 
+
+
         usuario = findViewById(R.id.usuario);
         contra = findViewById(R.id.contra);
         iniciosesion = findViewById(R.id.iniciosesion);
         btn1 = findViewById(R.id.iniciosesion);
+        registro = findViewById(R.id.registro);
+
+        registro.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void  onClick(View view){
+                Intent home = new Intent(getApplicationContext(),Registrar.class);
+                startActivity(home);
+            }
+        });
 
         iniciosesion.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -59,15 +71,14 @@ public class login1 extends AppCompatActivity {
                 FAuth.signInWithEmailAndPassword(user,contraseña).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
-                        if(task.isSuccessful()){
+                        if (task.isSuccessful()) {
                             Toast.makeText(login1.this, "Acceso Concedido", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext() ,MainActivity.class));
+                            startActivity(new Intent(getApplicationContext(), MainActivity.class));
                         }
 
 
-
                     }
-                })
+                });
             }
         });
 
