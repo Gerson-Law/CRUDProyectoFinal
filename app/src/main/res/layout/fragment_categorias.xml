@@ -28,20 +28,19 @@
         android:textColorHint="@color/black">
 
 
-
         <EditText
             android:id="@+id/et_idcategoria"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
-            android:background="@color/celeste"
+            android:background="@color/margent"
             android:drawableStart="@drawable/id"
             android:drawablePadding="5dp"
             android:ems="10"
             android:hint="ID Categorias:"
             android:inputType="number"
             android:paddingLeft="1dp"
-            android:textColor="@color/teal_700"
+            android:textColor="#FF000000"
             android:textSize="14dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -67,8 +66,8 @@
             android:hint="Nombre de Categoria:"
             android:inputType="text"
             android:paddingLeft="1dp"
-            android:background="@color/celeste"
-            android:textColor="#03168B"
+            android:background="@color/margent"
+            android:textColor="#FF000000"
             android:textSize="14dp" />
 
     </com.google.android.material.textfield.TextInputLayout>
