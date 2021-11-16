@@ -38,7 +38,7 @@
                     android:inputType="text"
                     android:paddingLeft="1dp"
                     android:background="@color/celeste"
-                    android:textColor="#03168B"
+                    android:textColor="@color/white"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -63,7 +63,7 @@
                     android:hint="Nombre del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/tranpa"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -88,7 +88,7 @@
                     android:hint="Descripcion del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/white"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -113,7 +113,7 @@
                     android:hint="Precio del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/white"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -138,7 +138,7 @@
                     android:hint="Stock del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/white"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -163,7 +163,7 @@
                     android:inputType="text"
                     android:background="@color/celeste"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/white"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -176,7 +176,7 @@
                 android:orientation="horizontal">
 
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btnSave"
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="0dp"
@@ -184,7 +184,7 @@
                     android:layout_weight="1"
                     android:background="@color/celeste"
                     android:text="Listar Producto"
-                    android:textColor="@color/colorWhite" />
+                    android:textColor="@color/white" />
 
 
             </LinearLayout>
