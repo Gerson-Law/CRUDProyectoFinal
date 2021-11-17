@@ -4,6 +4,7 @@
     package="com.itca.crud_proyecto_final">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
 
     <application
         android:allowBackup="true"
@@ -37,11 +38,7 @@
             android:name=".Splash"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".login1"
@@ -58,6 +55,11 @@
             android:label="@string/app_name"
             android:theme="@style/Theme.CRUDProyectoFinal.NoActionBar"
             tools:ignore="Instantiatable,MissingClass">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
     </application>

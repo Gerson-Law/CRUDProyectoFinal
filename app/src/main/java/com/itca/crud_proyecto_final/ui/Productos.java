@@ -36,7 +36,7 @@ public class Productos extends AppCompatActivity {
         ti_descripcion = ti_descripcion.findViewById(R.id.ti_descripcion);
         et_precio = et_precio.findViewById(R.id.et_precio);
         ti_precio = ti_precio.findViewById(R.id.ti_precio);
-        et_cantidad = et_cantidad.findViewById(R.id.et_cantidad);
+       // et_cantidad = et_cantidad.findViewById(R.id.et_cantidad);
         ti_cantidad = ti_cantidad.findViewById(R.id.ti_cantidad);
         btnSave = btnSave.findViewById(R.id.btnSave);
         btnLimpiar = btnLimpiar.findViewById(R.id.btnLimpiar);
