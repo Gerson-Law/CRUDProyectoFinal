@@ -19,7 +19,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/id"
+                android:id="@+id/id0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -29,7 +29,7 @@
 
 
                 <EditText
-                    android:id="@+id/id1"
+                    android:id="@+id/id10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -46,7 +46,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/category"
+                android:id="@+id/category0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -55,7 +55,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/category1"
+                    android:id="@+id/category10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -74,7 +74,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/descripcion"
+                android:id="@+id/descripcion0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -83,7 +83,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/descripcion1"
+                    android:id="@+id/descripcion10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -108,7 +108,7 @@
 
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btnSave"
+                    android:id="@+id/guardar1"
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
