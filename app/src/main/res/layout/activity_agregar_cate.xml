@@ -84,7 +84,7 @@
         <EditText
             android:id="@+id/et_descripcion"
             android:layout_width="match_parent"
-            android:layout_height="58dp"
+            android:layout_height="wrap_content"
             android:drawableStart="@drawable/des"
             android:drawablePadding="5dp"
             android:hint="Estado de la Categoria"
