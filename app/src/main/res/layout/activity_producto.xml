@@ -57,7 +57,7 @@
                 <EditText
                     android:id="@+id/et_productos"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_marginTop="0dp"
                     android:drawablePadding="5dp"
                     android:background="#F8F8F8"
@@ -110,7 +110,7 @@
                 <EditText
                     android:id="@+id/et_cantidad"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_marginTop="0dp"
                     android:drawablePadding="5dp"
                     android:paddingLeft="1dp"
@@ -136,7 +136,7 @@
                 <EditText
                     android:id="@+id/et_precio"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_marginTop="0dp"
                     android:drawablePadding="5dp"
                     android:background="#F8F8F8"
