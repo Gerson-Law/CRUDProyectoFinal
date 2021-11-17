@@ -39,6 +39,7 @@ public class login1 extends AppCompatActivity {
         iniciosesion = findViewById(R.id.iniciosesion);
         btn1 = findViewById(R.id.iniciosesion);
         registro = findViewById(R.id.registro);
+        FAuth = FirebaseAuth.getInstance();
 
         registro.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -68,7 +69,8 @@ public class login1 extends AppCompatActivity {
                     return;
 
                 }
-                FAuth.signInWithEmailAndPassword(user,contraseña).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+               // Toast.makeText(login1.this, "Acceso Concedido", Toast.LENGTH_SHORT).show();
+               FAuth.signInWithEmailAndPassword(user,contraseña).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {

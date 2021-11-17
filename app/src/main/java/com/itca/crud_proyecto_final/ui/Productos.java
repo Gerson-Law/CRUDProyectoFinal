@@ -25,7 +25,7 @@ public class Productos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.productos);
+        setContentView(R.layout.activity_producto);
 
 
         et_id = et_id.findViewById(R.id.et_id);
