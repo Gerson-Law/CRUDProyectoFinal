@@ -32,14 +32,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
+                    android:background="@color/celeste1"
                     android:drawableStart="@drawable/cod1"
                     android:drawablePadding="5dp"
                     android:ems="10"
                     android:hint="Codigo del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:background="@color/celeste"
-                    android:textColor="#03168B"
+                    android:textColor="@color/black"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -60,11 +60,11 @@
                     android:drawableStart="@drawable/namee"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:background="@color/celeste"
+                    android:background="@color/celeste1"
                     android:hint="Nombre del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/black"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -85,11 +85,11 @@
                     android:drawableStart="@drawable/des1"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:background="@color/celeste"
+                    android:background="@color/celeste1"
                     android:hint="Descripcion del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/black"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -110,11 +110,11 @@
                     android:drawableStart="@drawable/pre1"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:background="@color/celeste"
+                    android:background="@color/celeste1"
                     android:hint="Precio del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/black"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -135,11 +135,11 @@
                     android:drawableStart="@drawable/stp"
                     android:drawablePadding="5dp"
                     android:ems="10"
-                    android:background="@color/celeste"
+                    android:background="@color/celeste1"
                     android:hint="Stock del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/black"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -162,9 +162,9 @@
                     android:ems="10"
                     android:hint="Categoria"
                     android:inputType="text"
-                    android:background="@color/celeste"
+                    android:background="@color/celeste1"
                     android:paddingLeft="1dp"
-                    android:textColor="#03168B"
+                    android:textColor="@color/black"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -176,16 +176,15 @@
                 android:layout_marginRight="20dp"
                 android:orientation="horizontal">
 
-
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/btnSave"
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:background="@color/celeste"
-                    android:text="Listar Producto"
-                    android:textColor="@color/colorWhite" />
+                    android:background="@color/teal_700"
+                    android:text="listar"
+                    android:textColor="@color/black" />
 
 
             </LinearLayout>

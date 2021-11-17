@@ -29,19 +29,18 @@
 
 
                 <EditText
-                    android:id="@+id/cod_produc"
+                    android:id="@+id/et_id"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
                     android:background="#F8F8F8"
                     android:drawableStart="@drawable/cod"
                     android:drawablePadding="5dp"
-
                     android:ems="10"
                     android:hint="Codigo del Producto"
                     android:inputType="text"
                     android:paddingLeft="1dp"
-                    android:textColor="#090909"
+                    android:textColor="#F5F6FF"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -56,14 +55,13 @@
                 android:textColorHint="#A19CBA">
 
                 <EditText
-                    android:id="@+id/nom_produc"
+                    android:id="@+id/et_productos"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
                     android:drawablePadding="5dp"
                     android:background="#F8F8F8"
                     android:paddingLeft="1dp"
-                    android:textColor="#090909"
                     android:drawableStart="@drawable/pro"
                     android:ems="10"
                     android:hint="Nombre del Producto"
@@ -84,18 +82,17 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/des_produc"
+                    android:id="@+id/et_descripcion"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:textAppearance="?android:attr/textAppearanceLarge"
                     android:text=""
                     android:background="#F8F8F8"
-                    android:textColor="#090909"
                     android:drawablePadding="5dp"
                     android:paddingLeft="1dp"
                     android:drawableStart="@drawable/des"
                     android:textSize="14dp"
-
+                    android:textColor="#03168B"
                     android:hint="Descripción del Producto"
                     android:inputType="text"
                     />
@@ -111,7 +108,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/can_produc"
+                    android:id="@+id/et_cantidad"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
@@ -122,7 +119,7 @@
                     android:ems="10"
                     android:hint="Cantidad de Productos"
                     android:inputType="number"
-                    android:textColor="#090909"
+                    android:textColor="#03168B"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -137,7 +134,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/precio_produc"
+                    android:id="@+id/et_precio"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
@@ -148,92 +145,11 @@
                     android:ems="10"
                     android:hint="Precio"
                     android:inputType="number"
-                    android:textColor="#090909"
+                    android:textColor="#03168B"
                     android:textSize="14dp" />
 
             </com.google.android.material.textfield.TextInputLayout>
 
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_idd"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:textColorHint="#85929E">
-
-
-                <EditText
-                    android:id="@+id/cat_produc"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="0dp"
-                    android:background="#F8F8F8"
-                    android:drawableStart="@drawable/cod"
-                    android:drawablePadding="5dp"
-
-                    android:ems="10"
-                    android:hint="Categoria del Producto"
-                    android:inputType="text"
-                    android:paddingLeft="1dp"
-                    android:textColor="#090909"
-                    android:textSize="14dp" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_iddd"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:textColorHint="#85929E">
-
-
-                <EditText
-                    android:id="@+id/un_produc"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="0dp"
-                    android:background="#F8F8F8"
-                    android:drawableStart="@drawable/cod"
-                    android:drawablePadding="5dp"
-
-                    android:ems="10"
-                    android:hint="Unidad de medida"
-                    android:inputType="text"
-                    android:paddingLeft="1dp"
-                    android:textColor="#090909"
-                    android:textSize="14dp" />
-            </com.google.android.material.textfield.TextInputLayout>
-
-            <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_idddd"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="20dp"
-                android:textColorHint="#85929E">
-
-
-                <EditText
-                    android:id="@+id/esta_produc"
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp"
-                    android:layout_marginTop="0dp"
-                    android:background="#F8F8F8"
-                    android:drawableStart="@drawable/cod"
-                    android:drawablePadding="5dp"
-
-                    android:ems="10"
-                    android:hint="Estado del producto"
-                    android:inputType="text"
-                    android:paddingLeft="1dp"
-                    android:textColor="#090909"
-                    android:textSize="14dp" />
-            </com.google.android.material.textfield.TextInputLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -245,7 +161,7 @@
 
 
                 <Button
-                    android:id="@+id/btnguardar"
+                    android:id="@+id/btnSave"
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

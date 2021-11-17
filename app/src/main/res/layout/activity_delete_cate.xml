@@ -19,7 +19,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_id"
+                android:id="@+id/id0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
@@ -29,7 +29,7 @@
 
 
                 <EditText
-                    android:id="@+id/et_id"
+                    android:id="@+id/codigo"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -40,13 +40,13 @@
                     android:ems="10"
                     android:hint="Codigo del Categoria"
                     android:inputType="text"
-                    android:textColor="#03168B"
+                    android:textColor="#FF000000"
                     android:textSize="14dp" />
             </com.google.android.material.textfield.TextInputLayout>
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_nombre_prod"
+                android:id="@+id/category0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -55,7 +55,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_nombre_prod"
+                    android:id="@+id/category"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -66,7 +66,7 @@
                     android:ems="10"
                     android:hint="Nombre del Categoria"
                     android:inputType="text"
-                    android:textColorHint="#85929E"
+                    android:textColorHint="#FF000000"
                     android:textSize="14dp"
 
                     />
@@ -74,7 +74,7 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_descripcion"
+                android:id="@+id/descripcion0"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -83,7 +83,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_descripcion"
+                    android:id="@+id/descripcion"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -92,7 +92,7 @@
                     android:drawableStart="@drawable/des"
                     android:background="#E2D2F8"
                     android:textSize="14dp"
-                    android:textColor="#03168B"
+                    android:textColor="#FF000000"
                     android:hint="Estado del Categoria"
                     android:inputType="text"
                     />
@@ -108,7 +108,7 @@
 
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btnSave"
+                    android:id="@+id/eliminar"
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
