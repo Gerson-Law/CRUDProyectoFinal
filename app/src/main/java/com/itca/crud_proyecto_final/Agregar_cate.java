@@ -45,7 +45,7 @@ public class Agregar_cate extends AppCompatActivity {
                 productos1.setText("", null);
 
                 descripcion1.setText("", null);
-                
+
                 Toast.makeText(Agregar_cate.this, "Se Limpio con exito", Toast.LENGTH_SHORT).show();
             }
         });
