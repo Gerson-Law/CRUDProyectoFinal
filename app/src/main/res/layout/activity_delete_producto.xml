@@ -29,7 +29,7 @@
 
 
             <EditText
-                android:id="@+id/et_id"
+                android:id="@+id/codigo1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
@@ -54,7 +54,7 @@
             android:textColorHint="#85929E">
 
             <EditText
-                android:id="@+id/et_nombre_prod"
+                android:id="@+id/nombre1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
@@ -81,7 +81,7 @@
             android:textColorHint="#85929E">
 
             <EditText
-                android:id="@+id/et_descripcion"
+                android:id="@+id/descripcion1"
                 android:layout_width="match_parent"
                 android:layout_height="75dp"
                 android:textAppearance="?android:attr/textAppearanceLarge"
@@ -106,7 +106,7 @@
             android:textColorHint="#85929E">
 
             <EditText
-                android:id="@+id/et_stock"
+                android:id="@+id/cantidad1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
@@ -131,7 +131,7 @@
             android:textColorHint="#85929E">
 
             <EditText
-                android:id="@+id/et_precio"
+                android:id="@+id/precio1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
@@ -157,7 +157,7 @@
 
 
             <Button
-                android:id="@+id/btnSave"
+                android:id="@+id/eliminar1"
                 style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
