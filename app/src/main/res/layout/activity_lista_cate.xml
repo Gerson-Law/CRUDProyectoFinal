@@ -28,7 +28,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_id"
+                    android:id="@+id/id0"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -53,7 +53,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_name"
+                    android:id="@+id/name0"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -78,7 +78,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_es"
+                    android:id="@+id/es0"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
@@ -107,7 +107,7 @@
 
 
                 <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/btnSave"
+                    android:id="@+id/listar"
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
