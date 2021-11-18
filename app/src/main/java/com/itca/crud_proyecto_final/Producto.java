@@ -38,9 +38,19 @@ public class Producto extends AppCompatActivity {
         cat_produc = (EditText) findViewById(R.id.cat_produc);
         btnLimpiar = (Button) findViewById(R.id.btnLimpiar);
         btnActualizar = (Button) findViewById(R.id.btnActualizar);
-        esta_produc =(EditText)findViewById(R.id.esta_produc);
-        un_produc = (EditText) findViewById(R.id.un_produc);
+        //esta_produc =(EditText)findViewById(R.id.esta_produc);
+       // un_produc = (EditText) findViewById(R.id.un_produc);
 
+        btnLimpiar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                cod_produc.setText("");
+                nom_produc.setText("");
+                can_produc.setText("");
+                precio_produc.setText("");
+                des_produc.setText("");
+            }
+        });
 
 btnguardar.setOnClickListener(new View.OnClickListener() {
     @Override
@@ -58,8 +68,8 @@ btnguardar.setOnClickListener(new View.OnClickListener() {
         String can = can_produc.getText().toString().trim();
         String pre = precio_produc.getText().toString().trim();
         String cat = cat_produc.getText().toString().trim();
-        String esta =  esta_produc.getText().toString().trim();
-        String un = un_produc.getText().toString().trim();
+        //String esta =  esta_produc.getText().toString().trim();
+        //String un = un_produc.getText().toString().trim();
 
 
      ProgressDialog progressDialog=new ProgressDialog(this);
@@ -75,10 +85,6 @@ btnguardar.setOnClickListener(new View.OnClickListener() {
             des_produc.setError("Campo Descripcion Vacio");
         }if(cat.isEmpty()){
             cat_produc.setError("Campo Categoria Vacio");
-        }if(esta.isEmpty()){
-            esta_produc.setError("Campo Estado Vacio");
-        }if(un.isEmpty()){
-            un_produc.setError("Campo Unidad Vacio");
         }
      else {
          StringRequest request=new StringRequest(Request.Method.POST, "https://regitrodeusuarios.000webhostapp.com/Conexion/guardar_productos.php", new Response.Listener<String>() {
@@ -111,8 +117,6 @@ btnguardar.setOnClickListener(new View.OnClickListener() {
                  params.put("stock_producto", can);
                  params.put("precio_producto", pre);
                  params.put("categoria_producto", cat);
-                 params.put("unimedida_producto", un);
-                 params.put("estado_producto", esta);
                  return super.getParams();         //carga los datos referenciados de nuestra base de gatos
              }
          };
@@ -126,16 +130,8 @@ btnguardar.setOnClickListener(new View.OnClickListener() {
 
 
 
-       /* btnLimpiar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                cod_produc.setText("");
-                nom_produc.setText("");
-                can_produc.setText("");
-                precio_produc.setText("");
-                des_produc.setText("");
-            }
-        });*/
+
+
     }
 
 

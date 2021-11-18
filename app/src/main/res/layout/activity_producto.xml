@@ -29,7 +29,7 @@
 
 
                 <EditText
-                    android:id="@+id/et_id"
+                    android:id="@+id/cod_produc"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
@@ -55,7 +55,7 @@
                 android:textColorHint="#A19CBA">
 
                 <EditText
-                    android:id="@+id/et_productos"
+                    android:id="@+id/nom_produc"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
@@ -82,7 +82,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_descripcion"
+                    android:id="@+id/des_produc"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:textAppearance="?android:attr/textAppearanceLarge"
@@ -99,7 +99,7 @@
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/ti_cantidad"
+                android:id="@+id/can_produc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
@@ -108,7 +108,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_cantidad"
+                    android:id="@+id/cat_produc"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
@@ -134,7 +134,7 @@
                 android:textColorHint="#85929E">
 
                 <EditText
-                    android:id="@+id/et_precio"
+                    android:id="@+id/precio_produc"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:layout_marginTop="0dp"
@@ -161,7 +161,7 @@
 
 
                 <Button
-                    android:id="@+id/btnSave"
+                    android:id="@+id/btnguardar"
                     style="@style/Widget.AppCompat.Button.Borderless.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"

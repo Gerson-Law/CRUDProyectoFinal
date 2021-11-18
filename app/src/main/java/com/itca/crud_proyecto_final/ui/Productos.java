@@ -28,7 +28,7 @@ public class Productos extends AppCompatActivity {
         setContentView(R.layout.activity_producto);
 
 
-        et_id = et_id.findViewById(R.id.et_id);
+       /* et_id = et_id.findViewById(R.id.et_id);
         ti_id = ti_id.findViewById(R.id.ti_id);
         et_productos = et_productos.findViewById(R.id.et_productos);
         ti_productos = ti_productos.findViewById(R.id.ti_productos);
@@ -40,7 +40,7 @@ public class Productos extends AppCompatActivity {
         ti_cantidad = ti_cantidad.findViewById(R.id.ti_cantidad);
         btnSave = btnSave.findViewById(R.id.btnSave);
         btnLimpiar = btnLimpiar.findViewById(R.id.btnLimpiar);
-        btnActualizar = btnActualizar.findViewById(R.id.btnActualizar);
+        btnActualizar = btnActualizar.findViewById(R.id.btnActualizar);*/
 
     }}
 
@@ -170,6 +170,5 @@ private void new_product(){
         }
 
         */
-
 
 

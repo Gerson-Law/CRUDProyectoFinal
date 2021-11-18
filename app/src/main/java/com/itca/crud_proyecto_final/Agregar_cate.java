@@ -33,7 +33,7 @@ public class Agregar_cate extends AppCompatActivity {
                 Toast.makeText(Agregar_cate.this, "Guardado", Toast.LENGTH_SHORT).show();
             }
         });
-
+// Link del fichero php "https://regitrodeusuarios.000webhostapp.com/Conexion/guardar_categorias.php"
 
         limpiar.setOnClickListener(new View.OnClickListener() {
             @Override
